@@ -18,9 +18,9 @@ public class MyGroup extends WritableComparator {
         MyKey key2 = (MyKey) b;
 
         int r1 = Integer.compare(key1.getId(), key2.getId());
-        if (r1 == 0) {
-            return Integer.compare(key1.getMonth(), key2.getMonth());
-        }
+//        if (r1 == 0) {
+//            return Integer.compare(key1.getMonth(), key2.getMonth());
+//        }
         return r1;
     }
 }
